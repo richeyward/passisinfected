@@ -1,1 +1,23 @@
-Password: infected
+<html>
+    <head>
+        <title>Password is Infected</title>
+    </head>
+    <body>
+        <p id="passfield"></p>
+    </body>
+    <script>
+        var passfield = document.getElementById('passfield');
+        var arr = [
+            "2gullable4U",
+            "hunter2",
+            "invalidPass",
+            "nocluelol",
+            "takeaguess",
+            "¯\\_(ツ)_/¯",
+            "pǝʇɔǝɟuᴉ",
+            "solarwinds123",
+            "w̸̥̼͇̹͉͓̝͉̓̅̈̄̒͗̌̚ī̸̼̳͈͉̈́̐̀̇͗t̵̢̨̠̟̘̜̹͗͌̈͘͜c̴̨̡̦̪̻̗̏h̴̗̓̓̈́͋͐̏̀͝c̸̺͎̗͕̫̳̳̲̰̬̿̆̊́̔̆͘ŕ̷͍̯̮̲̣̱͕̓͋̈́͠͝a̴̤̮͒͂͂̐͒̐̾͘͘f̷̡̖̘̔̿̊̏̓̃̑͐̂͒͜ţ̶̨̛͉͔̮̭͈̼̬́̈͌̒̄i̸̺̺̹͛̂̌̂̎͌͌̈́͜ș̶̪̘̙̠̹̊́͛͛̍̄̕̚͝f̶̨̤̪͙͔͉̳͚̟̜̄u̷̖̐͌͆͘n̷̲̹̭̈́",
+        ];
+        passfield.innerHTML = "The Password is: '" + arr[Math.floor(Math.random() * arr.length)] + "'";
+    </script>
+</html>
